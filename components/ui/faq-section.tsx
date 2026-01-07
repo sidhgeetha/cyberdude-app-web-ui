@@ -4,9 +4,9 @@ import { useState } from "react";
 import FAQData from "@/data/faq";
 
 export const FaqSection = () => {
-  const [showAnswer, setShowAnswer] = useState({});
+  const [showAnswer, setShowAnswer] = useState<Record<number, boolean>>({});
 
-  const toggleAnswer = (index) => {
+  const toggleAnswer = (index: number) => {
     setShowAnswer((prev) => ({
       ...prev,
       [index]: !prev[index],
