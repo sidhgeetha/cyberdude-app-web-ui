@@ -2,7 +2,7 @@ export default function SiteFooter() {
   return (
     <>
       <section className="text-white bg-stone-900  flex flex-col gap-12 ">
-        <div className="flex flex-col md:flex-row items-center  gap-32 px-24 mt-12 ">
+        <div className="flex flex-col md:flex-row items-start çmd:items-center  gap-32 px-24 mt-12 justify-between ">
           <div className="">
             <h3 className="font-bold text-3xl md:text-xl mb-4">About</h3>
             <ul className="space-y-3">
